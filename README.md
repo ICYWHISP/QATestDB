@@ -58,9 +58,9 @@ RMB on postrges database - create - database
 
 6. Use scripts to change or add data
 
-[updatescript.sql](https://github.com/ICYWHISP/QATestDB/blob/bcf8f511767af3b6558d5a6faaedad98189c9d3f/updatescript.sql)
+[update_auto_price_script.sql](https://github.com/ICYWHISP/QATestDB/blob/bcf8f511767af3b6558d5a6faaedad98189c9d3f/updatescript.sql)
 
-[insertscript.sql](https://github.com/ICYWHISP/QATestDB/blob/bcf8f511767af3b6558d5a6faaedad98189c9d3f/insertscript.sql)
+[insert_new_auto_script.sql](https://github.com/ICYWHISP/QATestDB/blob/bcf8f511767af3b6558d5a6faaedad98189c9d3f/insertscript.sql)
 
 
 
