@@ -34,7 +34,7 @@ RMB on postrges database - create - database
 
 4. Create tables in a newly created database using scripts 
 
-[CreateTableStudents.sql](https://github.com/ICYWHISP/QATestDB/blob/Script1.sql)
+[CreateTableStudents.sql](https://github.com/ICYWHISP/QATestDB/blob/bcf8f511767af3b6558d5a6faaedad98189c9d3f/Script1.sql)
 
 [CreateTableClassRooms.sql](https://github.com/ICYWHISP/QATestDB/blob/bcf8f511767af3b6558d5a6faaedad98189c9d3f/Script2.sql)
 
