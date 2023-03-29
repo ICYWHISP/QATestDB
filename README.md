@@ -1,38 +1,38 @@
 # QATestDB
-Тестовая база данных
+Test database
 
-Приветствую вас, дорогие друзья! 
+Greetings, dear friends!
 
-Здесь я расскажу о том, как развернуть мою базу данных на вашем ПК!
+Here I will talk about how to deploy my database on your PC!
 
-**Шаги**
+**STEPS**
 
-1. Открыть Docker Desktop ( Если он не установлен то вот ссылка на скачивание https://www.docker.com/products/docker-desktop/ )
+1. Open Docker Desktop ( If it is not installed then here is the download link https://www.docker.com/products/docker-desktop/ )
 
-2. Запустить контейнер с образом Postgres :
+2. Run container with Postgres image :
 
-1.1 - Открыть терминал и прописать команду 
+1.1 - Open terminal and write command 
 
 `docker pull postgres`
 
-1.2 - Прописать команду 
+1.2 - write command
 
 `docker run --name qa-testing -e POSTGRES_PASSWORD=1234 -p 5432:5432 -d postgres`
 
-**Поздравляю, контейнер запущен!**
+**Congratulations, the container is running!**
 
 
-3. Запускаем DBeaver ( Если он не установлен то вот ссылка на скачивание https://dbeaver.io/download/ )
+3. Run DBeaver ( If it is not installed then here is the download link https://dbeaver.io/download/ )
 
-3.1 Устанавливаем соединение с Postgres - 
+3.1 Establishing a connection to Postgres - 
 
-В левом верхнем углу нажимаем "Новое соединение" и выбираем там PostgreSql
+In the upper left corner, click **"New Connection"** and select PostgreSql there
 
-3.2 Создаем базу данных с произвольным именем - 
+3.2 Create a database with an arbitrary name - 
 
-ПКМ по базе данных postrges - создать - база данных
+RMB on postrges database - create - database
 
-4. Создаем таблицы в только что созданой БД с помощью скриптов 
+4. Create tables in a newly created database using scripts 
 
 [Script1](https://github.com/ICYWHISP/QATestDB/blob/bcf8f511767af3b6558d5a6faaedad98189c9d3f/Script1.sql)
 
@@ -44,7 +44,7 @@
 
 
 
-5. Наполняем таблицы данными с помощью csv файлов в **!таком порядке как указано!** 
+5. Filling tables with data using csv files **!in the same order as indicated!** 
 
 1 [Students.csv](https://github.com/ICYWHISP/QATestDB/blob/bcf8f511767af3b6558d5a6faaedad98189c9d3f/Students.csv)
 
@@ -56,7 +56,7 @@
 
 
 
-6. Для изменения или добавления данных используйте скрипты 
+6. Use scripts to change or add data
 
 [updatescript.sql](https://github.com/ICYWHISP/QATestDB/blob/bcf8f511767af3b6558d5a6faaedad98189c9d3f/updatescript.sql)
 
@@ -64,4 +64,4 @@
 
 
 
-Все готово! 
+All is ready!
