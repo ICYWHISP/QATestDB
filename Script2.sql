@@ -1,0 +1,6 @@
+CREATE TABLE Class_rooms
+(
+	ClassroomID INTEGER PRIMARY KEY,
+	Faculty VARCHAR(255) NOT NULL,
+	Num_students INTEGER NOT NULL
+);
