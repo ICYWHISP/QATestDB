@@ -32,7 +32,7 @@
 
 ПКМ по базе данных postrges - создать - база данных
 
-4. Создаем таблицы в только что созданой БД с помощью скриптов ( 
+4. Создаем таблицы в только что созданой БД с помощью скриптов 
 
 [Script1](https://github.com/ICYWHISP/QATestDB/blob/bcf8f511767af3b6558d5a6faaedad98189c9d3f/Script1.sql)
 
@@ -42,9 +42,9 @@
 
 [Script4](https://github.com/ICYWHISP/QATestDB/blob/bcf8f511767af3b6558d5a6faaedad98189c9d3f/script4.sql)
 
-)
 
-5. Наполняем таблицы данными с помощью csv файлов в !таком порядке как указано! (
+
+5. Наполняем таблицы данными с помощью csv файлов в **!таком порядке как указано!** 
 
 1 [Students.csv](https://github.com/ICYWHISP/QATestDB/blob/bcf8f511767af3b6558d5a6faaedad98189c9d3f/Students.csv)
 
@@ -54,14 +54,14 @@
 
 4 [Auto.csv](https://github.com/ICYWHISP/QATestDB/blob/bcf8f511767af3b6558d5a6faaedad98189c9d3f/Auto.csv)
 
-)
 
-6. Для изменения или добавления данных используйте скрипты (
+
+6. Для изменения или добавления данных используйте скрипты 
 
 [updatescript.sql](https://github.com/ICYWHISP/QATestDB/blob/bcf8f511767af3b6558d5a6faaedad98189c9d3f/updatescript.sql)
 
 [insertscript.sql](https://github.com/ICYWHISP/QATestDB/blob/bcf8f511767af3b6558d5a6faaedad98189c9d3f/insertscript.sql)
 
-)
+
 
 Все готово! 
