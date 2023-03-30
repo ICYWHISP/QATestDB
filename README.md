@@ -34,33 +34,33 @@ RMB on postrges database - create - database
 
 4. Create tables in a newly created database using scripts 
 
-[CreateTableStudents.sql](https://github.com/ICYWHISP/QATestDB/blob/bcf8f511767af3b6558d5a6faaedad98189c9d3f/Script1.sql)
+[CreateTableStudents.sql](https://github.com/ICYWHISP/QATestDB/blob/main/CreateTablesScripts/CreateTableStudents.sql)
 
-[CreateTableClassRooms.sql](https://github.com/ICYWHISP/QATestDB/blob/bcf8f511767af3b6558d5a6faaedad98189c9d3f/Script2.sql)
+[CreateTableClassRooms.sql](https://github.com/ICYWHISP/QATestDB/blob/main/CreateTablesScripts/CreateTableClassRooms.sql)
 
-[CreateTableProgress.sql](https://github.com/ICYWHISP/QATestDB/blob/bcf8f511767af3b6558d5a6faaedad98189c9d3f/Script3.sql)
+[CreateTableProgress.sql](https://github.com/ICYWHISP/QATestDB/blob/main/CreateTablesScripts/CreateTableProgress.sql)
 
-[CreateTableAuto.sql](https://github.com/ICYWHISP/QATestDB/blob/bcf8f511767af3b6558d5a6faaedad98189c9d3f/script4.sql)
+[CreateTableAuto.sql](https://github.com/ICYWHISP/QATestDB/blob/main/CreateTablesScripts/CreateTableAuto.sql)
 
 
 
 5. Filling tables with data using csv files **!in the same order as indicated!** 
 
-1 [Students.csv](https://github.com/ICYWHISP/QATestDB/blob/bcf8f511767af3b6558d5a6faaedad98189c9d3f/Students.csv)
+1 [Students.csv](https://github.com/ICYWHISP/QATestDB/blob/main/CSV%20Tables/Students.csv)
 
-2 [Class_rooms.csv](https://github.com/ICYWHISP/QATestDB/blob/bcf8f511767af3b6558d5a6faaedad98189c9d3f/Class_rooms.csv)
+2 [Class_rooms.csv](https://github.com/ICYWHISP/QATestDB/blob/main/CSV%20Tables/Class_rooms.csv)
 
-3 [Progress.csv](https://github.com/ICYWHISP/QATestDB/blob/bcf8f511767af3b6558d5a6faaedad98189c9d3f/Progress.csv)
+3 [Progress.csv](https://github.com/ICYWHISP/QATestDB/blob/main/CSV%20Tables/Progress.csv)
 
-4 [Auto.csv](https://github.com/ICYWHISP/QATestDB/blob/bcf8f511767af3b6558d5a6faaedad98189c9d3f/Auto.csv)
+4 [Auto.csv](https://github.com/ICYWHISP/QATestDB/blob/main/CSV%20Tables/Auto.csv)
 
 
 
 6. Use scripts to change or add data
 
-[update_auto_price_script.sql](https://github.com/ICYWHISP/QATestDB/blob/bcf8f511767af3b6558d5a6faaedad98189c9d3f/updatescript.sql)
+[update_auto_price_script.sql](https://github.com/ICYWHISP/QATestDB/blob/main/InsertUpdateScripts/update_auto_price_script.sql)
 
-[insert_new_auto_script.sql](https://github.com/ICYWHISP/QATestDB/blob/bcf8f511767af3b6558d5a6faaedad98189c9d3f/insertscript.sql)
+[insert_new_auto_script.sql](https://github.com/ICYWHISP/QATestDB/blob/main/InsertUpdateScripts/insert_new_auto_script.sql)
 
 
 
